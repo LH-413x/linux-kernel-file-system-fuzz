@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libfs_operator.a  CMakeFiles/fs_operator.dir/fs_operator.cpp.o
+/usr/bin/ranlib ../lib/libfs_operator.a

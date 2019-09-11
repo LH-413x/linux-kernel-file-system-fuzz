@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/fs_operator.h
+utils/cpp_common.h
+-
+
+../include/utils/cpp_common.h
+iostream
+-
+vector
+-
+map
+-
+string
+-
+cstring
+-
+unordered_map
+-
+cstdio
+-
+cstdlib
+-
+random
+-
+
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/opt/fs_operator.cpp
+fs_operator.h
+-
+sys/xattr.h
+-
+

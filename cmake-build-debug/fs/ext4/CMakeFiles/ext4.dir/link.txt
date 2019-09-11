@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libext4.a  CMakeFiles/ext4.dir/ext4_image_mutator.cpp.o CMakeFiles/ext4.dir/__/__/opt/fs_operator.cpp.o
+/usr/bin/ranlib ../../lib/libext4.a

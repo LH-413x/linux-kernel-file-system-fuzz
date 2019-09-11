@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/fs/ext4/ext4_image_mutator.cpp
+fs/ext4/ext4_image_mutator.h
+-
+
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/fs/f2fs/f2fs_image_mutator.cpp
+../../include/fs/f2fs/f2fs_image_mutator.h
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include/fs/f2fs/f2fs_image_mutator.h
+
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include/fs/f2fs/f2fs_image_mutator.h
+
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/main.cpp
+iostream
+-
+

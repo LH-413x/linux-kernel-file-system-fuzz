@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libf2fs.a  CMakeFiles/f2fs.dir/f2fs_image_mutator.cpp.o
+/usr/bin/ranlib ../../lib/libf2fs.a

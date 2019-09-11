@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="file_system_fuzz"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\opt\;CMake Files\fs\;CMake Files\fs\ext4\;CMake Files\fs\f2fs\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/lib/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/lib/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fs_operator">
+				<Option output="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/lib/libfs_operator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/Makefile&quot;  VERBOSE=1 fs_operator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fs_operator/fast">
+				<Option output="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/lib/libfs_operator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/Makefile&quot;  VERBOSE=1 fs_operator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ext4">
+				<Option output="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/lib/libext4.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/Makefile&quot;  VERBOSE=1 ext4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ext4/fast">
+				<Option output="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/lib/libext4.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/Makefile&quot;  VERBOSE=1 ext4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="f2fs">
+				<Option output="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/lib/libf2fs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/Makefile&quot;  VERBOSE=1 f2fs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="f2fs/fast">
+				<Option output="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/lib/libf2fs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/Makefile&quot;  VERBOSE=1 f2fs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/fs/ext4/ext4_image_mutator.cpp">
+			<Option target="ext4"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/fs/f2fs/f2fs_image_mutator.cpp">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include/fs/image_mutator.h">
+			<Option target="ext4"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include/fs_operator.h">
+			<Option target="ext4"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/include/utils/cpp_common.h">
+			<Option target="ext4"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/opt/fs_operator.cpp">
+			<Option target="fs_operator"/>
+			<Option target="ext4"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/utils/utils.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utils\"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/opt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\opt\"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/fs/ext4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fs\ext4\"/>
+		</Unit>
+		<Unit filename="/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/fs/f2fs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fs\f2fs\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

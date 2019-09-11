@@ -1,0 +1,14 @@
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/CMakeFiles/rebuild_cache.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/CMakeFiles/utils.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/utils/CMakeFiles/edit_cache.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/CMakeFiles/rebuild_cache.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/CMakeFiles/fs_operator.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/opt/CMakeFiles/edit_cache.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/CMakeFiles/rebuild_cache.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/CMakeFiles/ext4.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/ext4/CMakeFiles/edit_cache.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/CMakeFiles/rebuild_cache.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/CMakeFiles/f2fs.dir
+/home/alex/ide-project/clion/linux-kernel-test/file-system-fuzz/cmake-build-debug/fs/f2fs/CMakeFiles/edit_cache.dir
