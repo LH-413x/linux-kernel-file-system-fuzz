@@ -123,9 +123,11 @@ bool fs_operator::xattr_test() {
     };
 }
 
+
+
 bool fs_operator::rename_test() {
     for(const auto & file : files){
-        std::string new_name(file);
+        std::string new_name=rand_string();
         rename(file.data(),new_name.data());
     }
 }

@@ -7,6 +7,23 @@
 
 #include <utils/cpp_common.h>
 
+
+
+static const char alphanum[] =
+        "0123456789"
+        "!@#$%^&*"
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        "abcdefghijklmnopqrstuvwxyz";
+
+std::string rand_string(){
+    int len=getRand(0xFF,0x1);
+    std::string s;
+    for(int i=0;i<len;i++){
+        s+=RAND_FROM(alphanum);
+    }
+    return s;
+}
+
 template <typename Ret>
 Ret getRand(){
     std::random_device rd;  //Will be used to obtain a seed for the random number engine

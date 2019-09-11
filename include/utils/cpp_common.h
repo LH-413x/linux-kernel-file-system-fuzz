@@ -17,8 +17,11 @@
 
 int getRand();
 int getRand(uint32_t max, uint32_t min);
+std::string rand_string();
 
 #define ELEM_NUM(a) sizeof((a))/sizeof((a)[0])
 #define RAND_FROM(x) (x)[getRand()%ELEM_NUM((x))]
+
+
 
 #endif //FILE_SYSTEM_FUZZ_CPP_COMMON_H
